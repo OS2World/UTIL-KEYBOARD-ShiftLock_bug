@@ -1,0 +1,13 @@
+NAME ShiftLock WINDOWAPI
+
+DESCRIPTION 'OS/2 Warp ShiftLock Bug Fix
+(C) Copyright Martin Lafaix 1995
+All rights reserved.'
+
+PROTMODE
+STACKSIZE 0x2000
+
+IMPORTS
+         SLHOOK._SLINIT
+         SLHOOK._SLTERM
+

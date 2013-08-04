@@ -1,0 +1,13 @@
+LIBRARY SLHOOK
+
+DESCRIPTION 'OS/2 Warp ShiftLock bug fix - Input Hook Library
+(C) Copyright Martin Lafaix 1995
+All rights reserved.'
+
+PROTMODE
+DATA SINGLE SHARED
+
+EXPORTS
+        _SLINIT
+        _SLTERM
+
